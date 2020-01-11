@@ -1,0 +1,5 @@
+$color-primary: #55c57a;
+
+h1{
+    background-color: &$color-primary;
+}
