@@ -1,21 +1,33 @@
+*,
+*::after,
+*::before{
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+}
 body{
     font-family:  'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
 }
 .head{
     background-color: #f6c00c;
     padding: 20px;
+    height: 90px;
+    
 }
 
 .sticky{
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+   
+
 }
 
-/* .sticky + .content {
+.sticky + .content {
     padding-top: 10px;
      margin-top: 0; 
-  }  */
+  } 
 .link a{
     /* color:white; */
     /* padding: 2px; */
@@ -66,11 +78,14 @@ a:hover{
        
     }
     section{
-        height: 600px;
+        height: 750px;
+        background-color: bisque;
+        color: black;
+      
     }
     section:hover{
-        background-color: bisque;
-        color: white;
+        background-color: #ffffff;
+        color: black;
     }
     .container{
         display: flex;
@@ -104,10 +119,32 @@ a:hover{
     hr{
         text-decoration: none;
     }
-        section.phones{
-            background-color: burlywood;
-        }
-    
+       .jump{
+           background-image: url('../project-images/Samsung-S10-TopBanner1.jpg');
+           height: 600px;
+           background-repeat: round;
+       }
+    .bt{
+        display: block;
+        float: right;
+        margin-top: 90px;
+        margin-right: 280px;
+        background-color: #f6c00c;
+        border: none;
+        color: black;
+    }
+
+    .bt:hover{
+        background-color: #46dbf1;
+        color: lightcyan;
+    }
+    .bt::after{
+        border: none;
+    }
+    .fot{
+        height: 105px;
+    }
+
 @keyframes fadeIn{
     from {
         margin-left: 100%;
