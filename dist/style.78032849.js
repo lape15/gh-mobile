@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\project-images\\Samsung-S10-TopBanner1.jpg":[["Samsung-S10-TopBanner1.03b851b0.jpg","project-images/Samsung-S10-TopBanner1.jpg"],"project-images/Samsung-S10-TopBanner1.jpg"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\project-images\\Samsung-S10-TopBanner1.jpg":[["Samsung-S10-TopBanner1.03b851b0.jpg","project-images/Samsung-S10-TopBanner1.jpg"],"project-images/Samsung-S10-TopBanner1.jpg"],"./..\\project-images\\social_160910389_0.png":[["social_160910389_0.f5504f32.png","project-images/social_160910389_0.png"],"project-images/social_160910389_0.png"],"./..\\project-images\\Bandwidth.jpg":[["Bandwidth.ce4f6e8b.jpg","project-images/Bandwidth.jpg"],"project-images/Bandwidth.jpg"],"./..\\project-images\\getty_1167247925_20001255200092800_401665.jpg":[["getty_1167247925_20001255200092800_401665.4b0625ed.jpg","project-images/getty_1167247925_20001255200092800_401665.jpg"],"project-images/getty_1167247925_20001255200092800_401665.jpg"],"./..\\project-images\\Samsung-Galaxy-S10-1.jpg":[["Samsung-Galaxy-S10-1.374e58d1.jpg","project-images/Samsung-Galaxy-S10-1.jpg"],"project-images/Samsung-Galaxy-S10-1.jpg"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

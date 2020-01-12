@@ -11,32 +11,32 @@ body{
 }
 .head{
     background-color: #f6c00c;
-    padding: 20px;
+    /* height: 150px; */
+    /* padding: 20px;
     height: 90px;
+    z-index: 2; */
     
 }
 
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
-   
 
-}
-
-.sticky + .content {
-    padding-top: 10px;
-     margin-top: 0; 
-  } 
-.link a{
+ 
+.link{
     /* color:white; */
     /* padding: 2px; */
     text-transform: uppercase;
-    text-align: center;
+    text-align: right;
     font-size: 1rem;
-    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     word-spacing: 3px;
+    color: rgb(147, 65, 202);
+   margin-left: 30px;
     /* margin-bottom: 0S; */
+    }
+    .link:hover{
+        color: red
+    }
+    .indicate{
+        z-index: 1;
     }
 
     .main {
@@ -46,21 +46,80 @@ body{
         animation: 2s infinite main linear;
     }
 
-.hide{
+
+
+/* .hide{
     display: hide;
 }
 a:hover{
     color: #ffffff
-}
+} */
 
 
-.roll{
+/* .roll{
     height: 100%;
 }
 
  img{
     height: 500px
+} */
+
+.carousel-item {
+    /* height: 28rem; */
+    height: 90vh;
+  
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  /* .header-carousel {
+    height: 95vh;
+  } */
+  
+  /* .carousel-image-1 {
+    background-image: linear-gradient(rgba(#000, 0.7), rgba(#000, 0.7)),
+      url("../project-images/Samsung-S10-TopBanner1.jpg");
+    background-size: cover;
+    background-position: top;
+  } */
+  
+  .carousel-image-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/Samsung-S10-TopBanner1.03b851b0.jpg");
+  
+    background-size: cover;
+    background-position: top;
+  }
+  .carousel-image-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/social_160910389_0.f5504f32.png");
+    background-size: cover;
+    background-position: top;
+  }
+  .carousel-image-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/Bandwidth.ce4f6e8b.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+  .carousel-image-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/getty_1167247925_20001255200092800_401665.4b0625ed.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+
+.btn{
+   background-color: burlywood;
+   transition: all ease 5s;
+
 }
+
+.btn:hover{
+    background-color: rgb(53, 15, 1);
+    width: 200px
+}
+
+
 .lead{
     font-weight: bold;
 }
@@ -77,13 +136,14 @@ a:hover{
         padding: 30px;
        
     }
-    section{
-        height: 750px;
+    .jump{
+        height: 800px;
         background-color: bisque;
         color: black;
+        /* border: 3px solid red; */
       
     }
-    section:hover{
+    .jump:hover{
         background-color: #ffffff;
         color: black;
     }
@@ -92,8 +152,7 @@ a:hover{
         flex-direction: row;
         justify-content: space-around;
         /* align-items: center; */
-        
-         }
+    }
 
          .cont_child{
              text-align: center;
@@ -107,7 +166,7 @@ a:hover{
         /* width: 260px; */
         height: 50px;
         margin: 10px 10px;
-        animation: 3s revolve infinite;
+        animation: 4s revolve infinite;
     }
 
     h4 p{
@@ -116,30 +175,64 @@ a:hover{
         margin: 8px 4px;
     }
 
-    hr{
+    .arr{
         text-decoration: none;
-    }
-       .jump{
-           background-image: url('/Samsung-S10-TopBanner1.03b851b0.jpg');
-           height: 600px;
-           background-repeat: round;
-       }
-    .bt{
-        display: block;
-        float: right;
-        margin-top: 90px;
-        margin-right: 280px;
-        background-color: #f6c00c;
-        border: none;
         color: black;
+        
     }
 
-    .bt:hover{
-        background-color: #46dbf1;
-        color: lightcyan;
+    .arr:hover{
+        color: burlywood;
+        text-decoration: none;
     }
-    .bt::after{
-        border: none;
+
+       /* .jump{
+           background-image: url('../project-images/Samsung-S10-TopBanner1.jpg');
+           height: 600px;
+           background-repeat: round
+        } */
+      .flexy{
+          background-color: #ffffff;
+          height: 600px;
+      }
+      .samsung{
+          flex-basis: 50%;
+          height: 450px;
+          background-image: url('/Samsung-Galaxy-S10-1.374e58d1.jpg');
+      }
+      .iphone{
+          flex-basis: 40%;
+          height: 450px;
+          
+          /* background-image: url('../project-images/iphone11-select-2019-family.jfif'); */
+}
+.iphone h2{
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 40px;
+    word-spacing: 2px;
+     /* border: 3px solid green;  */
+
+}
+
+.num li{
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+   
+    margin-left: 0px;
+}
+.buy{
+    display: block;
+    width: 30%;
+    margin-left: 190px;
+}
+  
+    .foot{
+        background-color: burlywood;
     }
     .fot{
         height: 105px;
@@ -161,7 +254,8 @@ a:hover{
     to{
         transform: rotateY(360deg);
         height: 100px;
-        fill: red
+        fill: red;
+        z-index: 1;
     }
 }
 
