@@ -1,406 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Tangerine&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css" />
-
-    <link href="./css/style.css" rel="stylesheet" />
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+   
+    <link href="./css/style.css" rel="stylesheet">
     <title>Gh Mobile</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top py-5">
-      <div class="container">
-        <a href="/">
-          <img src="./project-images/gh-1.png" alt="" class="img-fluid mr-5" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light  sticky-top py-5 head">
+        <a href="index.html" class="navbar-brand main">
+            <img src="./project-images/gh-1.png" alt="" class="img-fluid mr-5">
         </a>
-        <!-- <a href="#" class="navbar-brand main">GH-Mobile</a> -->
-        <button
-          type="button"
-          class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-        >
-          <span class="navbar-toggler-icon"></span>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
         </button>
-
+    
         <div class="collapse navbar-collapse text-center" id="navbarCollapse">
-          <ul class="navbar-nav">
-            <li class="nav-item  active">
-              <a class="nav-link nav-align" href="#"
-                >About Us <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link nav-align" href="#about_us">Phones</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link nav-align" href="#phones">Accessories</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link nav-align" href="#">Stores</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link nav-align" href="#">Support</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link nav-align" href="#">Developers Community</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+            <ul class="navbar-nav">
+              <li class="nav-item  active link">
+                <a class="nav-link nav-align" href="#about_us"
+                  >About Us <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item link">
+                <a class="nav-link nav-align" href="#phones">Phones</a>
+              </li>
+              <li class="nav-item link">
+                <a class="nav-link nav-align" href="#phones">Accessories</a>
+              </li>
+              <li class="nav-item link">
+                <a class="nav-link nav-align" href="#">Stores</a>
+              </li>
+              <li class="nav-item link">
+                <a class="nav-link nav-align" href="#">Support</a>
+              </li>
+              <li class="nav-item link">
+                <a class="nav-link nav-align" href="#">Developers Community</a>
+              </li>
+            </ul>
+          </div>
     </nav>
-
-    <!-- Carousel  -->
+    
 
     <section class="">
-      <div class="carousel slide" id="myCarousel" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item carousel-image-1 active">
-            <div class="container">
-              <div class="carousel-caption d-none d-sm-block text-left mb-5">
-                <h1 class="display-3">Heading One</h1>
-                <p class="lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                  earum voluptas similique repellendus et sed incidunt itaque
-                  dicta enim odio.
-                </p>
-                <a href="#" class="btn btn-info btn-lg">Sign Up Now</a>
+        <div class="carousel slide" id="myCarousel" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-image-1 active">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block text-left mb-5">
+                  <h1 class="display-3">Phones Available</h1>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                    earum voluptas similique repellendus et sed incidunt itaque
+                    dicta enim odio.
+                  </p>
+                  <a href="#" class="btn btn-info btn-lg">Sign Up Now&gt;&gt;</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item carousel-image-2">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block text-left mb-5">
+                  <h1 class="display-3">Value Added Services</h1>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                    earum voluptas similique repellendus et sed incidunt itaque
+                    dicta enim odio.
+                  </p>
+                  <a href="#" class="btn btn-info btn-lg">Learn More&gt;&gt;</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item carousel-image-3">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block text-left mb-5">
+                  <h1 class="display-3">Fibre Optics</h1>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                    earum voluptas similique repellendus et sed incidunt itaque
+                    dicta enim odio.
+                  </p>
+                  <a href="#" class="btn btn-info btn-lg">Contact Us&gt;&gt;</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item carousel-image-4">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block text-left mb-5">
+                  <h1 class="display-3">Accessories</h1>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                    earum voluptas similique repellendus et sed incidunt itaque
+                    dicta enim odio.
+                  </p>
+                  <a href="#" class="btn btn-info btn-lg">Call Us</a>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="carousel-item carousel-image-2">
-            <div class="container">
-              <div class="carousel-caption d-none d-sm-block text-left mb-5">
-                <h1 class="display-3">Heading Two</h1>
-                <p class="lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                  earum voluptas similique repellendus et sed incidunt itaque
-                  dicta enim odio.
-                </p>
-                <a href="#" class="btn btn-info btn-lg">Learn More</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item carousel-image-3">
-            <div class="container">
-              <div class="carousel-caption d-none d-sm-block text-left mb-5">
-                <h1 class="display-3">Heading Three</h1>
-                <p class="lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                  earum voluptas similique repellendus et sed incidunt itaque
-                  dicta enim odio.
-                </p>
-                <a href="#" class="btn btn-info btn-lg">Call Us</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item carousel-image-4">
-            <div class="container">
-              <div class="carousel-caption d-none d-sm-block text-left mb-5">
-                <h1 class="display-3">Heading Four</h1>
-                <p class="lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                  earum voluptas similique repellendus et sed incidunt itaque
-                  dicta enim odio.
-                </p>
-                <a href="#" class="btn btn-info btn-lg">Call Us</a>
-              </div>
-            </div>
-          </div>
+  
+          <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
-
-        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-    </section>
-
-    <!-- Carousel end  -->
-
-    <!-- About us  -->
-    <section class="about">
-      <div class="row">
-        <div class="col">
-          <div class="container">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Reiciendis illum neque dignissimos enim, culpa facere ratione.
-              Debitis eveniet labore eius.
-            </p>
-            <!-- TODO://  write a style to space out letter for all read more button   -->
-            <button class="btn btn-outline-dark ">Read more</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-
-    <!-- About us end  -->
-
-    <section id="about_us">
-      <h3 class="fade-in">About us</h3>
-      <p class="fade-in">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-        voluptatibus voluptate, inventore velit facilis commodi quis ipsa
-        consequatur in delectus. Natus temporibus eum iusto quam placeat! Illum
-        nisi adipisci dolore?
-      </p>
-      <div class="container">
-        <div class="cont_child">
-          <h4>Mobile and Android App Development</h4>
-          <svg
-            height="30"
-            viewBox="0 0 30 30"
-            width="100"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M24.527 1c.395 0 .59.456.398.764L21.93 6.757c-.34.566-1.16.01-.86-.514l2.997-4.994c.094-.164.272-.25.46-.25zM5.473 1c-.375.007-.59.455-.398.764L8.07 6.757c.338.563 1.174.01.86-.514L5.932 1.25C5.84 1.085 5.66.995 5.473 1zM19.5 13c-.822 0-1.5.678-1.5 1.5v2c0 .822.678 1.5 1.5 1.5s1.5-.678 1.5-1.5v-2c0-.822-.678-1.5-1.5-1.5zm0 1c.286 0 .5.214.5.5v2c0 .286-.214.5-.5.5-.286 0-.5-.214-.5-.5v-2c0-.286.214-.5.5-.5zm-9-1c-.822 0-1.5.678-1.5 1.5v2c0 .822.678 1.5 1.5 1.5s1.5-.678 1.5-1.5v-2c0-.822-.678-1.5-1.5-1.5zm0 1c.286 0 .5.214.5.5v2c0 .286-.214.5-.5.5-.286 0-.5-.214-.5-.5v-2c0-.286.214-.5.5-.5zm-9 8c-.822 0-1.5.678-1.5 1.5v4c0 .822.678 1.5 1.5 1.5h27c.822 0 1.5-.678 1.5-1.5v-4c0-.822-.678-1.5-1.5-1.5zm0 1h27c.286 0 .5.214.5.5v4c0 .286-.214.5-.5.5h-27c-.286 0-.5-.214-.5-.5v-4c0-.286.214-.5.5-.5zM15 7C7.937 7.01 1.772 11.695.062 18.377l-.003.012s-.154.594.032 1.247c.093.326.284.685.63.95.347.263.825.413 1.42.413h25.712c.595 0 1.075-.15 1.42-.414.348-.264.54-.623.632-.95.187-.652.037-1.247.037-1.247l-.004-.013C28.23 11.694 22.064 7.007 15 7zm0 1c6.62.006 12.37 4.386 13.967 10.613 0 .002.078.403-.022.75-.05.174-.13.315-.275.426-.147.11-.383.21-.816.21H2.144c-.435 0-.67-.1-.816-.21-.146-.112-.224-.253-.273-.427-.098-.344-.023-.736-.022-.744C2.63 12.39 8.38 8.01 15 8z"
-            />
-          </svg>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-          </p>
-        </div>
-        <div class="cont_child">
-          <h4>Fibre Optics Installation</h4>
-          <svg
-            height="100"
-            viewBox="0 0 30 30"
-            width="100"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M15 5C9.294 5 3.67 7.713.12 12.178a.5.5 0 1 0 .783.62c3.353-4.216 8.71-6.8 14.1-6.8 5.39 0 10.747 2.584 14.1 6.8a.5.5 0 1 0 .782-.62C26.332 7.713 20.71 5 15.002 5zm0 6c-3.895 0-7.705 2.005-9.91 5.214a.5.5 0 1 0 .824.566C7.924 13.856 11.45 12 15 12c3.55 0 7.077 1.856 9.086 4.78a.5.5 0 1 0 .824-.566C22.705 13.004 18.895 11 15 11zm0 6c-1.834 0-3.634.798-4.863 2.158a.5.5 0 1 0 .74.67c1.033-1.144 2.582-1.83 4.123-1.83 1.54 0 3.09.686 4.122 1.83a.5.5 0 1 0 .74-.67C18.635 17.798 16.835 17 15 17zm1 6a1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1z"
-            />
-          </svg>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-          </p>
-        </div>
-        <div class="cont_child">
-          <h4>Value Added Services</h4>
-          <svg
-            height="30"
-            viewBox="0 0 30 30"
-            width="30"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M9.5 9c-1.663 0-2.852.877-3.545 1.984C5.262 12.092 5 13.416 5 14.5c0 1.39-.427 2.684-1.777 3.584-.412.274-.218.916.277.916.64 0 1.426-.012 2.227-.307.298-.11.77-.358 1.06-.56-.088.367-.28.902-.433 1.103-.4.522-.956.764-1.854.764-.657 0-.66 1 0 1 1.102 0 2.046-.37 2.646-1.156.6-.785.854-1.898.854-3.344 0-.513-.678-.694-.934-.25-.505.876-1.08 1.28-1.685 1.504-.22.08-.452.053-.68.09C5.514 16.837 6 15.682 6 14.5c0-.916.244-2.092.803-2.984C7.36 10.623 8.17 10 9.5 10c1.33 0 2.14.623 2.697 1.516.56.892.803 2.068.803 2.984 0 1.182.485 2.337 1.3 3.344-.228-.037-.46-.01-.68-.09-.607-.223-1.18-.628-1.686-1.504-.256-.444-.935-.263-.934.25 0 1.446.255 2.526.69 3.287.438.76 1.105 1.213 1.81 1.213.668 0 .657-1 0-1-.295 0-.628-.163-.94-.71-.13-.224-.353-.79-.423-1.29.31.226.815.575 1.136.693.8.295 1.588.307 2.227.307.495 0 .69-.642.277-.916C14.427 17.184 14 15.89 14 14.5c0-1.084-.262-2.408-.955-3.516C12.352 9.877 11.163 9 9.5 9zM21 7c-1.893 0-3.2.848-3.965 1.893C16.27 9.937 16 11.14 16 12v2c0 .89.296 1.557.56 2.045.265.488.44.804.44.955v1.5c0 .495-.34 1.04-1.25 1.566-.996.575-2.496 1.42-3.5 2-.6.347-.94.842-1.098 1.3-.157.46-.152.884-.152 1.134 0 .672 1 .657 1 0 0-.25.005-.537.098-.81.092-.27.252-.525.652-.756.996-.575 2.496-1.42 3.5-2 1.09-.63 1.75-1.48 1.75-2.434V17c0-.597-.325-.998-.56-1.432-.236-.433-.44-.892-.44-1.568v-2c0-.64.23-1.687.84-2.518C18.45 8.652 19.393 8 21 8c1.607 0 2.55.652 3.16 1.482.61.83.84 1.88.84 2.518v2c0 .676-.204 1.135-.44 1.568-.235.434-.56.835-.56 1.432v1.5c0 .362-.01.784.156 1.23.165.443.518.87 1.094 1.204.578.333 1.065-.542.5-.868-.424-.245-.57-.455-.656-.685-.085-.23-.094-.518-.094-.88V17c0-.15.175-.467.44-.955.264-.488.56-1.156.56-2.045v-2c0-.86-.27-2.063-1.035-3.107C24.2 7.848 22.893 7 21 7zm-6-7C6.722 0 0 6.722 0 15c0 8.278 6.722 15 15 15 8.278 0 15-6.722 15-15 0-8.278-6.722-15-15-15zm0 1c7.738 0 14 6.262 14 14s-6.262 14-14 14S1 22.738 1 15 7.262 1 15 1z"
-            />
-          </svg>
-          <p>
-            We provide an environment that enables telecommunication service
-            providers to grow their business by increasing ability to deliver
-            more transactions and messages, deploying a broad array of valued
-            services while reducing cost and complexity.
-          </p>
-        </div>
-      </div>
-    </section>
-    <span></span> <span></span> <span></span><span></span><span></span>
-    <section id="phones" class="phones">
-      <div>
-        We got phones available
-      </div>
-    </section>
-
+      </section>
+        
         <section id="about_us">
+            <div class="jumbotron jump">
             <h3 class="fade-in">About us</h3>
-            <p class="fade-in"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptatibus voluptate, inventore velit facilis commodi quis ipsa consequatur in delectus. Natus temporibus eum iusto quam placeat! Illum nisi adipisci dolore?</p>
+            <p class="fade-in">Our clients are cherished because our existence is to serve you and you only. We are specialised in Mobile, Web and Desktop applications and doing it best is what we stand for.Also, we train IT personnel in organization exposing them to the latest technology. Our mission is simple: make technology an asset for your business not a problem.</p>
                 <div class="container">
                  <div class="cont_child">
                      <h4>Mobile and Android App Development</h4>
                     <svg height="30" viewBox="0 0 30 30" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M24.527 1c.395 0 .59.456.398.764L21.93 6.757c-.34.566-1.16.01-.86-.514l2.997-4.994c.094-.164.272-.25.46-.25zM5.473 1c-.375.007-.59.455-.398.764L8.07 6.757c.338.563 1.174.01.86-.514L5.932 1.25C5.84 1.085 5.66.995 5.473 1zM19.5 13c-.822 0-1.5.678-1.5 1.5v2c0 .822.678 1.5 1.5 1.5s1.5-.678 1.5-1.5v-2c0-.822-.678-1.5-1.5-1.5zm0 1c.286 0 .5.214.5.5v2c0 .286-.214.5-.5.5-.286 0-.5-.214-.5-.5v-2c0-.286.214-.5.5-.5zm-9-1c-.822 0-1.5.678-1.5 1.5v2c0 .822.678 1.5 1.5 1.5s1.5-.678 1.5-1.5v-2c0-.822-.678-1.5-1.5-1.5zm0 1c.286 0 .5.214.5.5v2c0 .286-.214.5-.5.5-.286 0-.5-.214-.5-.5v-2c0-.286.214-.5.5-.5zm-9 8c-.822 0-1.5.678-1.5 1.5v4c0 .822.678 1.5 1.5 1.5h27c.822 0 1.5-.678 1.5-1.5v-4c0-.822-.678-1.5-1.5-1.5zm0 1h27c.286 0 .5.214.5.5v4c0 .286-.214.5-.5.5h-27c-.286 0-.5-.214-.5-.5v-4c0-.286.214-.5.5-.5zM15 7C7.937 7.01 1.772 11.695.062 18.377l-.003.012s-.154.594.032 1.247c.093.326.284.685.63.95.347.263.825.413 1.42.413h25.712c.595 0 1.075-.15 1.42-.414.348-.264.54-.623.632-.95.187-.652.037-1.247.037-1.247l-.004-.013C28.23 11.694 22.064 7.007 15 7zm0 1c6.62.006 12.37 4.386 13.967 10.613 0 .002.078.403-.022.75-.05.174-.13.315-.275.426-.147.11-.383.21-.816.21H2.144c-.435 0-.67-.1-.816-.21-.146-.112-.224-.253-.273-.427-.098-.344-.023-.736-.022-.744C2.63 12.39 8.38 8.01 15 8z"/>
                     </svg>
                   <p>We are  one of the top mobile app development companies in Lagos that believes in transforming the roadmap into reality. The company believes a client’s vision is vast and complex and in order to accomplish it, AndPlus utilizes its entire means in designing, prioritizing and developing the vision. AndPlus offers a wide range of service that includes web app developments, mobile app developments, designing user experience, and managing Hardware in sync with the client’s requirements. </p>
-                  <p><a href="#">Read more &gt;&gt;</a></p>
+                  <p><a href="#" class="arr">Read more &gt;&gt;</a></p>
                 </div>
                   <div class="cont_child">
                       <h4>Fibre Optics Installation</h4>
                       <svg height="100" viewBox="0 0 30 30" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M15 5C9.294 5 3.67 7.713.12 12.178a.5.5 0 1 0 .783.62c3.353-4.216 8.71-6.8 14.1-6.8 5.39 0 10.747 2.584 14.1 6.8a.5.5 0 1 0 .782-.62C26.332 7.713 20.71 5 15.002 5zm0 6c-3.895 0-7.705 2.005-9.91 5.214a.5.5 0 1 0 .824.566C7.924 13.856 11.45 12 15 12c3.55 0 7.077 1.856 9.086 4.78a.5.5 0 1 0 .824-.566C22.705 13.004 18.895 11 15 11zm0 6c-1.834 0-3.634.798-4.863 2.158a.5.5 0 1 0 .74.67c1.033-1.144 2.582-1.83 4.123-1.83 1.54 0 3.09.686 4.122 1.83a.5.5 0 1 0 .74-.67C18.635 17.798 16.835 17 15 17zm1 6a1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1z"/></svg>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,  </p>
-                <p><a href="#">Read more &gt;&gt;</a></p>
+                <p> We provide va disruptive, end-to-end network architecture that paves the way to instantly scalable, self-optimizing networks that dynamically adapt to the demands of users and applications. Expanding on the power of Infinera’s unique vertically integrated Infinite Capacity Engine (ICE), the Infinite Network provides greater scalability and the powerful Instant Bandwidth operational model all the way to the edge of the network.</p>
+                <p><a href="#" class="arr">Read more &gt;&gt;</a></p>
                 </div>
                 <div class="cont_child">
                     <h4>Value Added Services</h4>
                     <svg height="30" viewBox="0 0 30 30" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 9c-1.663 0-2.852.877-3.545 1.984C5.262 12.092 5 13.416 5 14.5c0 1.39-.427 2.684-1.777 3.584-.412.274-.218.916.277.916.64 0 1.426-.012 2.227-.307.298-.11.77-.358 1.06-.56-.088.367-.28.902-.433 1.103-.4.522-.956.764-1.854.764-.657 0-.66 1 0 1 1.102 0 2.046-.37 2.646-1.156.6-.785.854-1.898.854-3.344 0-.513-.678-.694-.934-.25-.505.876-1.08 1.28-1.685 1.504-.22.08-.452.053-.68.09C5.514 16.837 6 15.682 6 14.5c0-.916.244-2.092.803-2.984C7.36 10.623 8.17 10 9.5 10c1.33 0 2.14.623 2.697 1.516.56.892.803 2.068.803 2.984 0 1.182.485 2.337 1.3 3.344-.228-.037-.46-.01-.68-.09-.607-.223-1.18-.628-1.686-1.504-.256-.444-.935-.263-.934.25 0 1.446.255 2.526.69 3.287.438.76 1.105 1.213 1.81 1.213.668 0 .657-1 0-1-.295 0-.628-.163-.94-.71-.13-.224-.353-.79-.423-1.29.31.226.815.575 1.136.693.8.295 1.588.307 2.227.307.495 0 .69-.642.277-.916C14.427 17.184 14 15.89 14 14.5c0-1.084-.262-2.408-.955-3.516C12.352 9.877 11.163 9 9.5 9zM21 7c-1.893 0-3.2.848-3.965 1.893C16.27 9.937 16 11.14 16 12v2c0 .89.296 1.557.56 2.045.265.488.44.804.44.955v1.5c0 .495-.34 1.04-1.25 1.566-.996.575-2.496 1.42-3.5 2-.6.347-.94.842-1.098 1.3-.157.46-.152.884-.152 1.134 0 .672 1 .657 1 0 0-.25.005-.537.098-.81.092-.27.252-.525.652-.756.996-.575 2.496-1.42 3.5-2 1.09-.63 1.75-1.48 1.75-2.434V17c0-.597-.325-.998-.56-1.432-.236-.433-.44-.892-.44-1.568v-2c0-.64.23-1.687.84-2.518C18.45 8.652 19.393 8 21 8c1.607 0 2.55.652 3.16 1.482.61.83.84 1.88.84 2.518v2c0 .676-.204 1.135-.44 1.568-.235.434-.56.835-.56 1.432v1.5c0 .362-.01.784.156 1.23.165.443.518.87 1.094 1.204.578.333 1.065-.542.5-.868-.424-.245-.57-.455-.656-.685-.085-.23-.094-.518-.094-.88V17c0-.15.175-.467.44-.955.264-.488.56-1.156.56-2.045v-2c0-.86-.27-2.063-1.035-3.107C24.2 7.848 22.893 7 21 7zm-6-7C6.722 0 0 6.722 0 15c0 8.278 6.722 15 15 15 8.278 0 15-6.722 15-15 0-8.278-6.722-15-15-15zm0 1c7.738 0 14 6.262 14 14s-6.262 14-14 14S1 22.738 1 15 7.262 1 15 1z"/></svg>
                 <p>We provide an environment that enables telecommunication service providers to grow their business by increasing ability to deliver more transactions and messages, deploying a broad array of valued services while reducing cost and complexity.</p>
-                <p><a href="#">Read more &gt;&gt;</a></p>
+                <p><a href="#" class="arr">Read more &gt;&gt;</a></p>
                 </div>
              </div>
+            </div>
         </section>
-        <span></span> <span></span> <span></span><span></span><span></span>
-        <div class="jumbotron jump">
-            <!-- <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
-            <p class="lead">
-              <a class="btn btn-primary btn-lg bt" href="#" role="button">Buy now &gt;&gt;</a>
-            </p>
+        <div class="d-flex flex-row justify-content-between p-2 bd-highlight flexy" id="phones"> 
+            <div class="samsung">
+                <span></span> <span></span><span></span><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br>
+                <br>
+
+            
           </div>
-          <!-- Footer -->
+          <div class="iphone">
+            <h2>Samsung S10</h2>
+            <ul class="num">
+                <li>8GB</li>
+                <li>128GB</li>
+                <li>3400mAh</li>
+                <li>Android 9.0</li>
+            </ul>
+            <a href="#" class="btn btn-info btn-lg buy">Buy&gt;&gt;</a>
+          </div>
+        </div>
+        
+           
+          
+<!-- Footer -->
 <footer class="page-footer font-small mdb-color lighten-3 pt-4">
 
-    <!-- Footer Elements -->
-    <div class="container">
-
-      <!--Grid row-->
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
       <div class="row">
-
-        <!--Grid column-->
-        <div class="col-lg-2 col-md-12 mb-4">
-
-          <!--Image-->
-          <div class="view overlay z-depth-1-half">
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" class="img-fluid"
-              alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+  
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mb-4"></h5>
+          <p>Here you can use rows and columns to organize your footer content.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
+            esse
+            quasi, veritatis totam voluptas nostrum.</p>
+  
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-2 col-md-6 mb-4">
-
-          <!--Image-->
-          <div class="view overlay z-depth-1-half">
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(78).jpg" class="img-fluid"
-              alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <a href="#phone">HOME</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#about_us">ABOUT US</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#!">PHONE</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#!">AWARDS</a>
+              </p>
+            </li>
+          </ul>
+  
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-2 col-md-6 mb-4">
-
-          <!--Image-->
-          <div class="view overlay z-depth-1-half">
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(79).jpg" class="img-fluid"
-              alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+  
+          <!-- Contact details -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <i class="fas fa-home mr-3"></i> Lagos, Nigeria</p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> </p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-phone mr-3"></i> 000000</p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-print mr-3"></i> 00000</p>
+            </li>
+          </ul>
+  
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-2 col-md-12 mb-4">
-
-          <!--Image-->
-          <div class="view overlay z-depth-1-half">
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(81).jpg" class="img-fluid"
-              alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+  
+          <!-- Social buttons -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+  
+          <!-- Facebook -->
+          <a type="button" class="btn-floating btn-fb">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- Twitter -->
+          <a type="button" class="btn-floating btn-tw">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- Google +-->
+          <a type="button" class="btn-floating btn-gplus">
+            <i class="fab fa-google-plus-g"></i>
+          </a>
+          <!-- Dribbble -->
+          <a type="button" class="btn-floating btn-dribbble">
+            <i class="fab fa-dribbble"></i>
+          </a>
+  
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-2 col-md-6 mb-4">
-
-          <!--Image-->
-          <div class="view overlay z-depth-1-half">
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(82).jpg" class="img-fluid"
-              alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-2 col-md-6 mb-4">
-
-          <!--Image-->
-          <div class="view overlay z-depth-1-half">
-            <img src="./project-images/Samsung-S10-TopBanner1.jpg"  class="img-fluid fot"
-              alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-
-        </div>
-        <!--Grid column-->
-
+        <!-- Grid column -->
+  
       </div>
-      <!--Grid row-->
-
+      <!-- Grid row -->
+  
     </div>
-    <!-- Footer Elements -->
-
+    <!-- Footer Links -->
+  
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="#"> Gh Mobile</a>
+    <div class="footer-copyright text-center py-3">Lorem
+      <a href="#"> Home</a>
     </div>
     <!-- Copyright -->
-
+  
   </footer>
   <!-- Footer -->
 
     <!-- <script src="https://unpkg.com/swiper/js/swiper.js"></script> -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./javaScript/script.js"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./javaScript/script.js">  </script>
+</body>
 </html>
