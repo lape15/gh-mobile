@@ -24,7 +24,7 @@ body{
     /* color:white; */
     /* padding: 2px; */
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
     font-size: 1rem;
     font-family: 'Roboto Condensed', sans-serif;
     word-spacing: 3px;
@@ -262,6 +262,13 @@ a:hover{
 @media only screen and (max-width:567px ) {
     .roe{
     display: none;
+    }
+    .link li{
+        background-color: aliceblue;
+        color: black;
+    }
+    .head{
+        height: 500px;
     }
   }
 
