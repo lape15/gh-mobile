@@ -268,7 +268,8 @@ a:hover{
         color: black;
     }
     .head{
-        height: 500px;
+        height: 200px;
+        padding: 4px;
     }
   }
 
