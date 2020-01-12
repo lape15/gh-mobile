@@ -253,11 +253,12 @@ a:hover{
 @keyframes revolve{
     to{
         transform: rotateY(360deg);
-        height: 100px;
+        height: 50px;
         fill: red;
         z-index: 1;
     }
 }
+
 
 
 
