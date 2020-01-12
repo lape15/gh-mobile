@@ -1,134 +1,193 @@
-body{
-    font-family:  'Roboto Condensed', sans-serif;
-}
-.head{
-    background-color: #f6c00c;
-    padding: 20px;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  box-sizing: border-box;
 }
+.head {
+  background-color: #f6c00c;
+  padding: 20px;
+}
+
+.main-nav {
+}
+
+.nav-align {
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.carousel-item {
+  /* height: 28rem; */
+  height: 90vh;
+
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* .header-carousel {
+  height: 95vh;
+} */
+
+/* .carousel-image-1 {
+  background-image: linear-gradient(rgba(#000, 0.7), rgba(#000, 0.7)),
+    url("../project-images/Samsung-S10-TopBanner1.jpg");
+  background-size: cover;
+  background-position: top;
+} */
+
+.carousel-image-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../project-images/Samsung-S10-TopBanner1.jpg");
+
+  background-size: cover;
+  background-position: top;
+}
+.carousel-image-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../project-images/social_160910389_0.png");
+  background-size: cover;
+  background-position: top;
+}
+.carousel-image-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../project-images/Bandwidth.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.carousel-image-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../project-images/getty_1167247925_20001255200092800_401665.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+/* .sticky {
+  ./project-images/social_160910389_0.png
+  ./project-images/Bandwidth.jpg
+  ./project-images/getty_1167247925_20001255200092800_401665.jpg
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
 
 /* .sticky + .content {
-    padding-top: 10px;
-     margin-top: 0; 
-  }  */
-.link a{
-    /* color:white; */
-    /* padding: 2px; */
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1rem;
-    /* font-family: 'Roboto Condensed', sans-serif; */
-    word-spacing: 3px;
-    /* margin-bottom: 0S; */
-    }
+  padding-top: 10px;
+  margin-top: 0;
+} */
 
-    .main {
-        font-family : 'Tangerine', cursive;
-        font-size: 3rem;
-        font-weight: bold;
-        animation: 2s infinite main linear;
-    }
-
-.hide{
-    display: hide;
-}
-a:hover{
-    color: #ffffff
+.link a {
+  color: white;
+  padding: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  word-spacing: 3px;
+  /* margin-bottom: 0s; */
 }
 
-
-.roll{
-    height: 100%;
+.main {
+  font-family: "Tangerine", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  animation: 2s infinite main linear;
 }
 
- img{
-    height: 500px
+.hide {
+  display: hide;
 }
-.lead{
-    font-weight: bold;
-}
-
-
-
-
-    .fade-in{
-        color: black;
-        text-align: center;
-        z-index: 5;
-        animation: fadeIn 2s;
-        size: 5rem;
-        padding: 30px;
-       
-    }
-    section{
-        height: 600px;
-    }
-    section:hover{
-        background-color: bisque;
-        color: white;
-    }
-    .container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        /* align-items: center; */
-        
-         }
-
-         .cont_child{
-             text-align: center;
-             /* border: 2px solid black; */
-             flex-basis: 40%;
-             height: 300px;
-             margin: 5px
-             }
-  
-    svg{
-        /* width: 260px; */
-        height: 50px;
-        margin: 10px 10px;
-        animation: 3s revolve infinite;
-    }
-
-    h4 p{
-        padding: 5px;
-        text-align: center;
-        margin: 8px 4px;
-    }
-
-    hr{
-        text-decoration: none;
-    }
-        section.phones{
-            background-color: burlywood;
-        }
-    
-@keyframes fadeIn{
-    from {
-        margin-left: 100%;
-        width: 300%; 
-      }
-    
-      to {
-        margin-left: 0%;
-        width: 100%;
-      }
+a:hover {
+  color: #ffffff;
 }
 
-@keyframes revolve{
-    to{
-        transform: rotateY(360deg);
-        height: 100px;
-        fill: red
-    }
+/* .roll {
+  height: 100%;
+} */
+
+img {
+  height: 500px;
+}
+.lead {
+  font-weight: bold;
 }
 
+.fade-in {
+  color: black;
+  text-align: center;
+  z-index: 5;
+  animation: fadeIn 2s;
+  size: 5rem;
+  padding: 30px;
+}
+section {
+  height: 600px;
+}
+section:hover {
+  background-color: bisque;
+  color: white;
+}
+.container {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+  /* align-items: center; */
+}
 
+.cont_child {
+  text-align: center;
+  /* border: 2px solid black; */
+  flex-basis: 40%;
+  height: 300px;
+  margin: 5px;
+}
+
+svg {
+  /* width: 260px; */
+  height: 50px;
+  margin: 10px 10px;
+  animation: 3s revolve infinite;
+}
+
+h4 p {
+  padding: 5px;
+  text-align: center;
+  margin: 8px 4px;
+}
+
+hr {
+  text-decoration: none;
+}
+section.phones {
+  background-color: burlywood;
+}
+
+@keyframes fadeIn {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes revolve {
+  to {
+    transform: rotateY(360deg);
+    height: 100px;
+    fill: red;
+  }
+}
 
 /* .navbar-collapse a{
         display: hide;
@@ -138,11 +197,11 @@ a:hover{
         margin: 4px 4px;
 } */
 
- /* flex-basis: 30%; */
-        /* border: 1px solid black;
+/* flex-basis: 30%; */
+/* border: 1px solid black;
         padding: 20px;
         margin: 5px;
         height: 250px; */
-        /* display: flex;
+/* display: flex;
         flex-direction: row;
         justify-content: space-evenly; */
