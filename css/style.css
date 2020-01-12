@@ -259,7 +259,11 @@ a:hover{
     }
 }
 
-
+@media only screen and (max-width:567px ) {
+    .roe{
+    display: none;
+    }
+  }
 
 
 /* .navbar-collapse a{
